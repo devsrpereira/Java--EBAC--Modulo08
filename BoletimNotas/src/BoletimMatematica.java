@@ -36,7 +36,7 @@ public class BoletimMatematica {
     public static String resultado(){
         String resultadoFinal;
 
-        if (mediaNotas() > 6){
+        if (mediaNotas() >= 6){
             resultadoFinal = "O aluno foi APROVADO!";
         }else {
             resultadoFinal = "O aluno foi REPROVADO!";
